@@ -1,0 +1,9 @@
+.sidebar{
+    display: grid;
+    position: fixed;
+    width: 10vw;
+    background: $main-color;
+    height: 100%;
+    grid-column-start: 1;
+    z-index: 2;
+}
