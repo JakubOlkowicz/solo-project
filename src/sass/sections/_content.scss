@@ -1,4 +1,4 @@
 .content{
-    display: grid;
-    grid-template-columns: 10vw auto;
+    grid-area: 2 / 2 / 3 / 3;
+    justify-self: stretch; 
 }

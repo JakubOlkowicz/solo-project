@@ -1,0 +1,16 @@
+.sidebar-menu{
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    i{
+    padding: 10px; 
+    }
+}
+.sidebar-menu:hover{
+   background: $inputs-hover-color;
+   color: $inputs-color;
+   border-left: 2px;
+   border-color: $main-color; 
+}

@@ -1,8 +1,5 @@
 .navbar{
-    display: grid;
-    position: fixed;
-    grid-column-start: 2;
-    grid-row-start: 1;
+    grid-area: 1 / 2 / 2 / 3;
     background: white;
-    height: 10vw;
+    justify-self: stretch;
 }
