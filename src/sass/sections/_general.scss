@@ -1,6 +1,27 @@
 .general{
-    display: grid;
-    grid-column-start: 2;
-    background: $links-color;
-    grid-row-start: 2;
+    background: white;
+    .calendar{
+        display: flex;
+        align-items: center;
+        padding: 30px;
+        justify-content: center;
+        input{
+            font-size: 12px;
+            font-family: $brand-font;
+            border-width: 1px;
+            border-color: $inputs-color;
+            padding: 5px;
+        }
+        button{
+            background-color: $main-color;
+            border: none;
+            border-radius: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            i{
+                color: $inputs-color;
+            }
+        }
+    }
 }
