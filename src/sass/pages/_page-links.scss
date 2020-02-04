@@ -1,0 +1,49 @@
+.links{
+    background: white;
+    margin: 10px 7px;
+    font-family: $paragraph-font;
+    color: $button-grey;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    .button{
+        display: flex;
+        justify-content: center;
+        .btn{
+            width: 110px;
+            height: 35px;
+            margin-top: 20px;
+        }
+       
+    }
+    table{
+        margin: 30px 250px;
+        td{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid $button-grey;
+            border-top: 1px solid $button-grey;
+            border-collapse: collapse;
+            border-spacing: 0;
+            padding: 10px;
+                a{
+                    color: $links-color;
+                    text-decoration: none;
+                }
+            i{
+                color: transparent;
+                margin: 0 5px;
+            }
+        }
+        td:hover{
+            background-color: $inputs-color;
+            .icon-links{
+                color: $hover-main-color;
+            }
+            .icon-trash{
+                color: $button-grey
+            }
+        }
+    }
+}

@@ -1,6 +1,6 @@
 .general{
     background: white;
-    margin: 5px;
+    margin: 10px 7px;
     font-family: $paragraph-font;
     color: $button-grey;
     flex-direction: column;
@@ -21,15 +21,12 @@
     }
     .static{
         display: flex;
-        margin:  50px 250px;
+        margin:  30px 250px;
         justify-content: center;
         color: $button-grey;
         table{
-            border-bottom: 1px solid $button-grey;
             margin-left: 15px;
             min-width: 330px;
-            tr:first-of-type{
-                border-bottom: 1px solid $button-grey;
             }
             tr:hover{
                 background-color: $light-grey;
@@ -37,7 +34,10 @@
             tr{
                 margin: 15px;
                 td{
+                    display: flex;
+                    justify-content: space-between;
                     padding: 0 50px;
+                    border-bottom: 1px solid $button-grey;
                     div{
                         margin: 10px 0;
                     }
@@ -47,7 +47,7 @@
                 }
             }
         }
-    }
+    
     .blue{
         color:$links-color;
     }
@@ -64,7 +64,7 @@
         text-align: left;
         height: 20px;
         margin: 0 250px;
-        padding-top: 50px;
+        padding-top: 30px;
     }
     .earnings{
         display: flex;
@@ -76,7 +76,6 @@
             width: 100%;
            display: flex;
            justify-content: center;
-           margin: 30px 30px 0 0;
            padding: 10px;
            button{
                margin: 20px 15px;
