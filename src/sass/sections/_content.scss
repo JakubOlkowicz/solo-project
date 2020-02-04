@@ -4,4 +4,16 @@
     background: $light-grey;
     padding: 5px;
     height: 100%;
+    label{
+        text-align: left;
+        display: none;
+        i{
+        font-size: 30px;
+        padding-left: 10px;
+        color: $main-color;
+        }
+    } 
+    #toggle{
+        display: block;
+    }
 }

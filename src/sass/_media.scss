@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) {
+    body{
+        grid-template-rows: 0;
+        grid-template-columns: 0;
+    }
+    .sidebar {
+        display: none;
+        .media-navbar{
+            display: flex;
+            flex-direction: column-reverse;        }
+    }
+    .navbar{
+        display: none;
+    } 
+    .content{
+        label {
+            position: relative;
+            display: block;
+            cursor: pointer;
+            
+        } 
+    }
+    #toggle:checked + .body{
+        grid-template-columns: 150px 1fr;
+    }
+    #toggle:checked + .sidebar{
+        display: block;
+    }
+}
