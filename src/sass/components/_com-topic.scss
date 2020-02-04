@@ -1,11 +1,15 @@
 .topic{
-    color: $inputs-color;
     width: 100%;
-    border-bottom-color: $inputs-color;
-    border-bottom-width: 1px;
+    border-bottom: 1px solid $inputs-color;
     text-align: left;
-    p{
+    display: flex;
+    height: auto;
+    h4{  
+        justify-content: left;
         color: $button-grey;
         padding: 10px;
-        font-family: 'Roboto', sans-serif;    }
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        font-weight: normal;
+    }
 }

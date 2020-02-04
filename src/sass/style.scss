@@ -6,10 +6,10 @@
 // /* Components */
 @import "./components/com-sidebar";
 @import "./components/com-topic";
+@import "./components/com-button";
 /* Sections */
 @import "sections/sidebare";
 @import "sections/navbar";
-@import "sections/general";
 @import "sections/content";
 // /* Pages / Views */
-// import "pages/registration";
+@import "./pages/page-general";

@@ -1,4 +1,5 @@
 .sidebar-menu{
+    border-left: 2px solid transparent;
     font-size: 12px;
     display: flex;
     flex-wrap: wrap;
@@ -11,6 +12,5 @@
 .sidebar-menu:hover{
    background: $inputs-hover-color;
    color: $inputs-color;
-   border-left: 2px;
-   border-color: $main-color; 
+   border-left: 2px solid $main-color;
 }
