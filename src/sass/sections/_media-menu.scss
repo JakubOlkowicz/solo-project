@@ -1,0 +1,16 @@
+.media-menu{
+    grid-area: 1 / 2 / 2 / 3;
+    display: flex;
+    justify-content: center;
+    .burger{
+        padding-right: 30px;
+    }
+    span{
+
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+        color: $inputs-hover-color;
+        padding-left: 30px;
+        
+    }
+}

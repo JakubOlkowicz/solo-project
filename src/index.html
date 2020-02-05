@@ -9,8 +9,18 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-   <div class="sidebar">
+<body id="body">
+  <div class="media-menu">
+    <div class="burger">
+      <button class="btn-toggle "id="menu-toggle">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </button>
+     </div>
+     <span>Just Do It!</span>
+    </div>
+   <div class="sidebar" id="side">
       <div class="sidebar-head">
         <span>Just Do It!</span>
       </div>
@@ -61,7 +71,7 @@
         </div>
       </div>
    </div> 
-   <nav class="navbar" >
+   <nav class="navbar" id="nav" >
     <i class="icon-quit"></i>
     <div class="profil">
       <i class="icon-profile"></i>
@@ -77,8 +87,6 @@
     </div>
     </nav>
    <section class="content">
-    <label for="toggle"><i class="fas fa-bars"></i></label>
-    <input type="checkbox" id="toggle"/>
     <div class="general">
       <div class="topic">
         <h4>GENERAL STATISTIC</h4>
@@ -300,5 +308,6 @@
       </div>
     </div>
    </section>
+   <script type="text/javascript" src="./js/script.js"></script> 
 </body>
 </html>

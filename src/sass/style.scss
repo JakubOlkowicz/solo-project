@@ -7,10 +7,12 @@
 @import "./components/com-sidebar";
 @import "./components/com-topic";
 @import "./components/com-button";
+@import "./components/com-burger";
 /* Sections */
 @import "sections/sidebare";
 @import "sections/navbar";
 @import "sections/content";
+@import "./sections/media-menu";
 // /* Pages / Views */
 @import "./pages/page-general";
 @import "./pages/page-links";
