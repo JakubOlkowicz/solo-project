@@ -9,6 +9,9 @@
             align-items: flex-start;
         }
     }
+    .topic{
+        justify-content: left;
+    }
     /* Sidebar */
     .sidebar {
         display: none;
@@ -135,6 +138,20 @@
                     padding: 0 30px;
                 }
             }
+        }
+    }
+    /* Personal Data */
+
+    .container-form{
+        .field{
+            display: block;
+            label{
+                width: 100%;
+            }
+            input{
+                width: 100%;
+            }
+    
         }
     }
 }

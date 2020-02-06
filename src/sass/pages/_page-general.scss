@@ -1,24 +1,5 @@
 .general{
-    background: white;
-    margin: 10px 7px;
-    font-family: $paragraph-font;
-    color: $button-grey;
-    flex-direction: column;
-    display: flex;
-    .calendar{
-        display: flex;
-        align-items: center;
-        padding: 30px;
-        justify-content: center;
-        border-bottom: 1px solid $button-grey-hover;
-        input{
-            font-size: 12px;
-            font-family: $brand-font;
-            border-width: 1px;
-            border-color: $inputs-color;
-            padding: 5px;
-        }
-    }
+    
     .static{
         display: flex;
         margin:  30px 250px;
