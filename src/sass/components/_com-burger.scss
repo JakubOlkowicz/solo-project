@@ -9,11 +9,8 @@ $toggle-anim-speed: 0.9s;
     display: none;
     align-items: flex-start;
     justify-content: flex-start;
-    position: relative;
 }
 .btn-toggle {
-    top: 5px;
-    position: absolute;
     display: flex;
     flex-direction: column;
     cursor: pointer;

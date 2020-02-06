@@ -1,6 +1,6 @@
 function burgerSidebar(){
   const btn = document.getElementById('menu-toggle');
-  const lines = btn.querySelectorAll('.line');
+  // const lines = btn.querySelectorAll('.line');
   const cls = { open: 'open', close: 'close' };
   const sidebar = document.getElementById('side');
   const body = document.getElementById('body');

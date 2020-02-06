@@ -1,10 +1,15 @@
 @media screen and (max-width: 768px) {
+    /* Global */
     body{
         display: grid;
         grid-template-columns: 0;
         grid-template-rows: 50px 1fr;
-    
+        .burger{
+            display: flex;
+            align-items: flex-start;
+        }
     }
+    /* Sidebar */
     .sidebar {
         display: none;
         .media-navbar{
@@ -60,9 +65,11 @@
             }
         }
     }
+    /* Navbar */
     .navbar{
         display: none;
     } 
+    /* Content */
     .content{
         label {
             position: relative;
@@ -71,6 +78,7 @@
             
         } 
     }
+    /* General */
     .general{
         p{
             text-align: center;
@@ -110,25 +118,27 @@
             }
         }
     }
+    /* Links */
     .links{
         table{
             margin: 30px;
+            margin-bottom: 0px;
             td{
                 justify-content: center;
                 span{
-                    padding: 0 20px
+                    padding: 0 30px
                 }
                 a{
-                    padding: 0 20px
+                    padding: 0 30px
+                }
+                .icons{
+                    padding: 0 30px;
                 }
             }
         }
     }
-    .burger{
-        display: flex;
-        align-items: flex-start;
-    }
 }
+/* Class added in JS Burger()*/
 .dis-block{
     display: block;
 }
