@@ -154,6 +154,20 @@
     
         }
     }
+    /* Detail */
+    .static{
+        table{
+           tr{
+                flex-direction: row;
+                th{
+                    flex: 33.3%;
+                }
+                td{
+                    flex: 33.3%;
+                }    
+            }
+        }
+    }
 }
 /* Class added in JS Burger()*/
 .dis-block{
