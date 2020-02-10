@@ -112,18 +112,20 @@ popUps();
 function sidebarActive(){
   const sidebars = document.querySelectorAll('.sidebar-menu');
   for(let sidebar of sidebars){
-    sidebar.addEventListener('click', function(){
-      console.log('To ja', sidebar);
+    sidebar.addEventListener('click', function(event){
+      event.preventDefault();
+      // console.log('To ja', sidebar);
       const idSidebar = sidebar.getAttribute('id');
-      const pages = document.querySelectorAll('container');
-      console.log('To ja', pages);
+      const pages = document.querySelectorAll('.container');
       for(let page of pages){
+        page.classList.remove('active');
         const idPage = page.getAttribute('id');
-        console.log(idPage);
         if(idSidebar === idPage){
-          console.log(page);
-          page.classList.toggle('.active');
-          sidebar.classList.toggle('.side-click');
+          page.classList.add('active');
+          sidebar.classList.add('side-click');
+        } else {
+          page.classList.remove('active');
+          sidebar.classList.remove('side-click');
         }
       }
     });
