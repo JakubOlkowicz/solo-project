@@ -127,8 +127,10 @@
             margin: 30px;
             margin-bottom: 0px;
             td{
-                justify-content: center;
+                width: 100%;
+                justify-content: space-between;
                 span{
+                    text-align: left;
                     padding: 0 30px
                 }
                 a{

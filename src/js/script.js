@@ -81,7 +81,7 @@ function popUps(){
   // const messagerIcon = document.getElementById('pop-messager');
   const quitIcon = document.getElementById('pop-quit');
   const profilIcon = document.getElementById('pop-profil');
-
+  console.log(quitIcon);
   /* Pops-up */
   const  login = document.getElementById('login');
   const quit = document.getElementById('quit');
@@ -89,7 +89,6 @@ function popUps(){
   const btnCancel = document.getElementById('btnCancel');
   const btnQuit = document.getElementById('btnQuit');
   
-  window.opener = self;
   // Pop-Ups Login
   profilIcon.addEventListener('click',function(){
     login.style.display = 'flex';
