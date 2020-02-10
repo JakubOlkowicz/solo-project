@@ -78,7 +78,7 @@ burgerSidebar();
 
 function popUps(){
   /* Icons */ 
-  const messagerIcon = document.getElementById('pop-messager');
+  // const messagerIcon = document.getElementById('pop-messager');
   const quitIcon = document.getElementById('pop-quit');
   const profilIcon = document.getElementById('pop-profil');
 
