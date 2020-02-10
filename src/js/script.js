@@ -116,15 +116,19 @@ function sidebarActive(){
       // console.log('To ja', sidebar);
       const idSidebar = sidebar.getAttribute('id');
       const pages = document.querySelectorAll('.container');
+      sidebar.classList.remove('side-click');
       for(let page of pages){
         page.classList.remove('active');
         const idPage = page.getAttribute('id');
-        if(idSidebar === idPage){
+        if(idSidebar == idPage){
           page.classList.add('active');
           sidebar.classList.add('side-click');
+          console.log('dodałem', idSidebar);
         } else {
           page.classList.remove('active');
           sidebar.classList.remove('side-click');
+          console.log('zabrałem', idSidebar);
+
         }
       }
     });
