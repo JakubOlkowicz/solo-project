@@ -72,8 +72,10 @@
       </div>
    </div> 
    <nav class="navbar" id="nav" >
-    <i class="icon-quit" id="pop-quit"></i>
-    <div class="profil" id="pop-profil">
+     <button id="pop-quit" onclick="popupsQuit()">
+      <i class="icon-quit"></i>
+     </button>
+    <div class="profil" id="pop-profil" onclick="popupsLogin()">
       <i class="icon-profile "></i>
       <span class="name">
         Howard Lovecraft
@@ -695,7 +697,7 @@
        <div class="topic">
          <h4>LOGIN</h4>
        </div>
-       <form action="" method="POST">
+       <form action="">
         <div class="input-container">
           <i class="icon-login"></i>
           <input class="input-field" type="text" placeholder="login name" name="usrnm">
@@ -704,7 +706,7 @@
           <i class="icon-password"></i>
           <input class="input-field" type="password" placeholder="password" name="usrnm">
         </div>
-        <button type="submit" class="btn btn-ora">
+        <button id="btnCancel" class="btn btn-ora" onclick="popupsCancel()">
           <span>Enter</span>
         </button>
        </form>
@@ -716,11 +718,12 @@
         <h4>Do you really want to Quit</h4>
       </div>
       <div class="buttons">
-        <button class="btn btn-grey" id="btnCancel">Cancel</button>
-        <button class="btn btn-ora" id="btnQuit"> Quit</button>
+        <button class="btn btn-grey" id="btnCancel" onclick="popupsCancel()">Cancel</button>
+        <button class="btn btn-ora" id="btnCancel" onclick="popupsCancel()"> Quit</button>
       </div>
      </div>
    </div> 
-   <script type="text/javascript" src="./js/script.js"></script> 
+   <script type="text/javascript" src="./js/script.js">
+  </script> 
 </body>
 </html>

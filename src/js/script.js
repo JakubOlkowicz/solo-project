@@ -76,37 +76,33 @@ burgerSidebar();
 // }
 // validation();
 
-function popUps(){
-  /* Icons */ 
-  // const messagerIcon = document.getElementById('pop-messager');
-  const quitIcon = document.getElementById('pop-quit');
-  const profilIcon = document.getElementById('pop-profil');
-  console.log(quitIcon);
-  /* Pops-up */
-  const  login = document.getElementById('login');
-  const quit = document.getElementById('quit');
-  /* Button */
-  const btnCancel = document.getElementById('btnCancel');
-  const btnQuit = document.getElementById('btnQuit');
-  
-  // Pop-Ups Login
-  profilIcon.addEventListener('click',function(){
-    login.style.display = 'flex';
-  });
-
-  // Pop-ups Quit
-  quitIcon.addEventListener('click', function(){
-    quit.style.display = 'flex';
-  });
-  btnCancel.addEventListener('click', function(){
-    quit.style.display = 'none';
-  });
-  btnQuit.addEventListener('click', function(){
-    window.close();
-    quit.style.display = 'none';
-  });
+/* Icons */ 
+// const messagerIcon = document.getElementById('pop-messager');
+const quitIcon = document.getElementById('pop-quit');
+const profilIcon = document.getElementById('pop-profil');
+/* Pops-up */
+const  login = document.getElementById('login');
+const quit = document.getElementById('quit');
+/* Button */
+const btnCancel = document.getElementById('btnCancel');
+const btnQuit = document.getElementById('btnQuit');
+function popupsLogin(){
+  console.log(login);
+  login.classList.add('up');
 }
-popUps();
+function popupsQuit(){
+  quit.classList.add('up');
+}
+function popupsCancel(){
+  login.classList.remove('up');
+  quit.classList.remove('up');
+}
+// Pop-Ups Login
+
+
+// Pop-ups Quit
+
+// popUps();
 
 function sidebarActive(){
   const sidebars = document.querySelectorAll('.sidebar-menu');

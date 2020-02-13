@@ -2,6 +2,7 @@
     cursor: pointer;
 }
 #pop-quit{
+    visibility: hidden;
     cursor: pointer;
 }
 #pop-message{
@@ -13,10 +14,9 @@
     background-color: rgba(0,0,0,0.7);
     position: absolute;
     top: 0;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
-    display: none;
     .login{
         width: 550px;
         height: auto;
@@ -57,6 +57,7 @@
         }
     }
     .quit{
+        visibility: visible;
         width: 250px;
         height: auto;
         background-color: white;
@@ -72,4 +73,7 @@
             }
         }
     }
+}
+.up{
+    display: flex;
 }
