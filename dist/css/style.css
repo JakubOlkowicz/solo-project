@@ -1039,7 +1039,7 @@ body {
 }
 
 .general .earnings .table {
-  width: 100%;
+  width: 65%;
   margin-bottom: 50px;
   display: -ms-flexbox;
   display: flex;
@@ -1050,7 +1050,8 @@ body {
 }
 
 .general .earnings .table #myChart {
-  width: 100%;
+  width: 784px;
+  height: 392px;
 }
 
 .links table {
