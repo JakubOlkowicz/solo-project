@@ -7,6 +7,7 @@
     grid-row-gap: 0px;
     margin: 0 auto;
     background: $light-grey;
+    overflow-x: hidden;
 
   }  
   .active {
@@ -15,3 +16,4 @@
   .no-active {
     display: none;
   }
+  
